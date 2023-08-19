@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#fb009f,#fe0202);
+    font-family: sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+.text{
+    color: #efe8e8;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+.page{
+    width: 340px;
+    background: #fff;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.title{
+    padding: 25px;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: 'Pacifico' ,'cursive';
+}
+
+.title:hover span{
+    display: none;
+  }
+
+form{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+form input{
+    margin-bottom: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    outline: none;
+}
+
+form input:focus{
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    background: #efefef;
+}
+
+input[type="email"],input[type ="password"]{
+    padding-left: 7px;
+    position: relative;
+    height: 36px;
+    font-size: 15px;
+}
+
+input::placeholder{
+    font-weight: normal;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+input:focus::placeholder{
+    position: absolute;
+    font-size: 11px;
+    transform: translateY(-10px);
+}
+
+form button{
+    border: none;
+    background: #043fff;
+    padding: 7px 0;
+    margin-top: 5px;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+}
+
+form button:active{
+    background: #2c58fe;
+    transform: scale(0.9);
+}
+
+.fblink{
+    margin-top: 15px;
+    width: 100%;
+}
+
+.fblink span{
+    font-size: 18px;
+    color: #021897;
+    margin-right: 5px;
+}
+
+.fblink a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #021897;
+}
+
+.forget-id{
+    margin: 15px;
+}
+
+.forget-id a{
+    text-decoration: none;
+    color: #025fd2;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+ .signup{
+    position: relative;
+    border: 1px solid #b6b6b6;
+    border-radius: 2px;
+    width: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+
+.signup a{
+    text-decoration: none;
+    margin-left: 5px;
+    color: #008aff;
+    font-weight: bold;
+}
+
+
